@@ -1,0 +1,19 @@
+.viewer-container {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: #eaeaea; /* fond clair neutre */
+    position: relative;
+    overflow: hidden;
+  }
+  
+canvas {
+    display: block;
+}
+
+.viewer-container {
+    width: 100%;
+    height: calc(100vh - 60px); /* moins la hauteur du header */
+    position: relative;
+    background-color: #1e1e2f;
+    overflow: hidden;
+  }

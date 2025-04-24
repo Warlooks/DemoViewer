@@ -1,0 +1,11 @@
+
+<div 
+    class="info-panel" *ngIf="selectedObject">
+    <button class="close-button" (click)="closePanel()">✖</button>
+    <h3>Objet sélectionné</h3>
+    <p><strong>Nom :</strong> {{ selectedObject?.name || 'Inconnu' }}</p>
+    <p><strong>Type :</strong> {{ selectedObject?.type || '—' }}</p>
+    <p><strong>Matériau :</strong> {{ material }}</p>
+<p><strong>Température max :</strong> {{ temperature }}</p>
+
+  </div>
